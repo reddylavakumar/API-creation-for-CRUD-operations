@@ -40,7 +40,7 @@ app.get('/getallbrands/:id', async(req,res)=>{
     } catch (err) {
         console.log(err.message)
     }
-})
+}) 
 
 app.delete('/deletebrand/:id',async (req,res)=>{
     try {
